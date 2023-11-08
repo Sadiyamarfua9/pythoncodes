@@ -1,2 +1,2 @@
-# pythoncodes
-My first repository
+# The Basics
+this repository stores basic python codes
