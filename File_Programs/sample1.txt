@@ -1,0 +1,4 @@
+this is a sample file
+read function reads all the contents of the file
+readline prints the line
+readlines stores the lines as elements in a list
