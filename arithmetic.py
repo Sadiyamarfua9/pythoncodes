@@ -1,0 +1,7 @@
+a=int(input("enter the value of a: "))
+b=int(input("enter the value of b: "))
+print("sum of a and b is:",a+b)
+print(a,"-",b,"=",a-b)
+print(a,"*",b,"=",a*b)
+print("division is: ",a/b)
+print("exponential:",a**3)
