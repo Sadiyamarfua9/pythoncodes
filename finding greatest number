@@ -1,0 +1,32 @@
+x=int(input("enter number1:\n"))
+y=int(input("enter number2:\n"))
+z=int(input("enter number3:\n"))
+if x==y==z:
+  print(f"{x},{y},{z} are equal")
+elif x==y:
+  if z>x:
+    print(f"{z} is greatest")
+  else:
+    print(f"{x} and {y} are equal")
+    print(f"{z} is smallest")
+elif y==z:
+  if x>y:
+   print(f"{x} is greatest") 
+  else:
+   print(f"{y} and {z} are equal")
+   print(f"{x} is smallest")
+elif z==x:
+  if y>z:
+    print(f"{y} is greatest")
+  else:
+    print(f"{z} and {x} are equal")
+    print(f"{y} is smallest")
+else:
+  if x>y and x>z:
+    print(f"{x} is greatest")
+  elif y>x and y>z:
+    print(f"{y} is greatest")
+  elif z>x and z>y:
+    print(f"{z} is greatest")
+  else:
+    print("give valid input")
