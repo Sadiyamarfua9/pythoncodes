@@ -1,0 +1,12 @@
+f=open("first.txt","x")
+print("file created")
+f.close()
+f=open("first.txt","w")
+print("hello")
+f.close()
+f=open("first.txt","r")
+print(f.read())
+f.close()
+import os
+os.remove("first.txt")
+print("file removed")
