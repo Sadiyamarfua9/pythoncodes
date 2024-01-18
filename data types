@@ -1,0 +1,10 @@
+x=5
+print(f"data type of {x} is:",type(x))
+x=5.056
+print(f"data type of {x} is:",type(x))
+x=6j
+print(f"data type of {x} is:",type(x))
+x="five"
+print(f"data type of {x} is:",type(x))
+x=False
+print(f"data type of {x} is:",type(x))
