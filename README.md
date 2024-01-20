@@ -41,7 +41,3 @@ Contribute to the magic! If you have spells (or code) to share, follow the [cont
 This project is under the protection of the Python Wizard's Guild. 🧙‍♂️ It is licensed under the [MIT License](LICENSE), ensuring that the magic remains open and accessible to all.
 
 Happy coding, fellow wizards! 🧙‍♀️🔮
-
-### Enchanted Python
-
-![Enchanted Python GIF](https://tenor.com/view/lets-go-go-penguin-luck-good-luck-gif-11986892979434770444)
