@@ -34,10 +34,6 @@ Craft your own enchanted objects and wield the power of abstraction. 🪄✨
 
 ## Contributing
 
-Contribute to the magic! If you have spells (or code) to share, follow the [contribution guidelines](CONTRIBUTING.md). Together, we'll make this repository even more enchanting.
-
-## License
-
-This project is under the protection of the Python Wizard's Guild. 🧙‍♂️ It is licensed under the [MIT License](LICENSE), ensuring that the magic remains open and accessible to all.
+Contribute to the magic! If you have spells (or code) to share. Together, we'll make this repository even more enchanting.
 
 Happy coding, fellow wizards! 🧙‍♀️🔮
