@@ -1,0 +1,26 @@
+def div(a,b):
+  try:
+    res=a/b
+    print("the result is:",res)
+  except ZeroDivisionError as ze:
+    print(f"not allowed as {ze} occured")
+div(3,0)
+div(4,2)
+
+def list(l1):
+  try:
+    for i in range(5):
+      print(l1[i])
+  except IndexError as ie:
+    print(f"impossible as {ie} occured")
+l1=[4,7,6]
+list(l1)
+
+def str(x):
+  try:
+    assert x=="hello","x should be hi"
+  except AssertionError as ae:
+    print(f"{ae}")
+x="hi"
+str(x)
+
