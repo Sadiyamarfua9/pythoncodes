@@ -44,4 +44,4 @@ Happy coding, fellow wizards! 🧙‍♀️🔮
 
 ### Enchanted Python
 
-![Enchanted Python GIF](https://example.com/enchanted-python.gif)
+![Enchanted Python GIF](https://tenor.com/view/lets-go-go-penguin-luck-good-luck-gif-11986892979434770444)
