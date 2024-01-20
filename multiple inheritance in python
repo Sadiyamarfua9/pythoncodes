@@ -1,0 +1,25 @@
+class person:
+  def __init__(self,name,id):
+    self.name=name
+    self.pid=id
+  def displayN(self):
+    print("name is:",self.name)
+  def displayID(self):
+    print("age is:",self.pid)
+class faculty:
+  def __init__(self,age):
+    self.age=age
+  def getage(self):
+    return self.age
+class student(person,faculty):
+  def __init__(self,name,id,age):
+    person.__init__(self,name,id)
+    faculty.__init__(self,age)
+    self.behaviour="kind"
+  def getbehaviour(self):
+    print("she is ",self.behaviour)
+s1=student("sara",3071,19)
+s1.displayN()
+s1.displayID()
+print(s1.getage())
+s1.getbehaviour()
