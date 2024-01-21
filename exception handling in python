@@ -1,26 +1,45 @@
+#we create a function with numerator and denominator as input parameters, that handles the zero division error by using try and except block
 def div(a,b):
   try:
+    #try block executes the division operation
     res=a/b
+    #if there is no error then the print statement is executed
     print("the result is:",res)
   except ZeroDivisionError as ze:
+    #except block handles the zero division error which raises when the denominator is zero and the error message is stored in the variable ze
     print(f"not allowed as {ze} occured")
+
+#we call the div function to perform division
 div(3,0)
 div(4,2)
 
-def list(l1):
+
+#this is the second type of error that is index error
+#we create a function with a list as input parameter
+def PrintEle(l1):
   try:
+    #try block executes loop that iterates through 5 elements of the list and prints the elements
     for i in range(5):
       print(l1[i])
-  except IndexError as ie:
-    print(f"impossible as {ie} occured")
+  except IndexError as err:
+    #incase there are less than 5 elements in the list, the IndexError is raised and handled using except block, the error message is stored in variable err
+    print(f"impossible as {err} occured")
+  
+#we declare a list of 3 variables and pass it to the function
 l1=[4,7,6]
-list(l1)
+PrintEle(l1)
 
-def str(x):
+#this is the third bit of the question
+#we define a function that takes a string x as input, it uses try and except block to handle errors 
+def stringfunction(x):
   try:
-    assert x=="hello","x should be hi"
+    #we use assert keyword to check a base case with the error message if the base case fails
+    assert x == "hello","x should be hi"
   except AssertionError as ae:
+    #the assert keyword raises an Assertion Error when the given base case fails, the error message is stored in the variable ae
     print(f"{ae}")
+    
+#we initialize a string and pass it to the function
 x="hi"
-str(x)
+stringfunction(x)
 
