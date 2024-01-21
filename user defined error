@@ -1,0 +1,10 @@
+class PasswordError(Exception):
+  pass
+  try:
+    password=input("enter a 4 digit password:")
+    if len(password)>4:
+      raise PasswordError
+    else:
+      print("correct")
+  except PasswordError as pe:
+    print("error")
